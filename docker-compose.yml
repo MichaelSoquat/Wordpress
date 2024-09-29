@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   wordpress:
-    image: wordpress:v1.2.3
+    image: wordpress:6.3.2
     container_name: wp
     ports:
       - "8080:80"
