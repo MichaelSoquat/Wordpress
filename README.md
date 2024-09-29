@@ -9,6 +9,7 @@ This project sets up a WordPress environment with a MariaDB database using Docke
 - [Usage](#usage)
 - [Clone the repository](#clone-the-repository)
 - [Configure environment variables](#configure-environment-variables)
+- [Docker compose yml](#docker-compose-yml)
 - [Start the services](#start-the-services)
 - [Acces WordPress](#acces-wordPress)
 - [Why docker compose](#why-docker-compose)
@@ -45,7 +46,7 @@ Adjust the .env file to fit your setup:
 ## Docker compose yml
 
   ```
-   version: '3.8'
+version: '3.8'
 
 services:
   wordpress:
