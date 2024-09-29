@@ -3,6 +3,10 @@
 This project sets up a WordPress environment with a MariaDB database using Docker Compose.
 
 ## Table of Contents
+
+- [Setup](#setup)
+- [Quickstart](#quickstart)
+- [Usage](#usage)
 - [Clone the repository](#clone-the-repository)
 - [Configure environment variables](#configure-environment-variables)
 - [Start the services](#start-the-services)
@@ -13,6 +17,11 @@ This project sets up a WordPress environment with a MariaDB database using Docke
 - **Docker**: [Installationsanleitung für Docker](https://docs.docker.com/get-docker/)
 - **Docker Compose**: [Installationsanleitung für Docker Compose](https://docs.docker.com/compose/install/)
 
+## Quickstart
+To quickly get started with the project, clone the repository, adjust the environment variables in the `.env` file, and start the services. 
+
+## Usage
+After starting the services, you can access WordPress through your web browser at `http://localhost:8080`. Follow the on-screen instructions to complete the setup.
 
 ## Clone the repository
 
