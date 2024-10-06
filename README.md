@@ -82,7 +82,7 @@ volumes:
 ## Start the services
 
   ```
-  docker-compose up
+  docker compose up
   ```
 
 ## Access WordPress
@@ -92,7 +92,7 @@ volumes:
 ## Stop the services
 
   ```
-  docker-compose down
+  docker compose down
   ```
 
 ## Why docker compose
