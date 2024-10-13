@@ -46,11 +46,10 @@ Adjust the .env file to fit your setup:
 ## Docker compose yml
 
   ```
-version: '3.8'
 
 services:
   wordpress:
-    image: wordpress:v1.2.3
+    image: wordpress:latest
     container_name: wp
     ports:
       - "8080:80"
@@ -83,7 +82,7 @@ volumes:
 ## Start the services
 
   ```
-  docker-compose up
+  docker compose up
   ```
 
 ## Access WordPress
@@ -93,7 +92,7 @@ volumes:
 ## Stop the services
 
   ```
-  docker-compose down
+  docker compose down
   ```
 
 ## Why docker compose
