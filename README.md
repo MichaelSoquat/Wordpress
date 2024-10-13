@@ -41,6 +41,7 @@ Adjust the .env file to fit your setup:
   DB_PASSWORD=your_password
   DB_NAME=wordpress
   MYSQL_ROOT_PASSWORD=your_root_password
+  WORDPRESS_PORT=8080
   ```
 
 ## Docker compose yml
@@ -52,7 +53,7 @@ services:
     image: wordpress:latest
     container_name: wp
     ports:
-      - "8080:80"
+      - "${WORDPRESS_PORT}:80"
     environment:
       WORDPRESS_DB_HOST: ${DB_HOST}
       WORDPRESS_DB_USER: ${DB_USER}
