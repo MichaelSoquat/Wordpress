@@ -19,7 +19,17 @@ This project sets up a WordPress environment with a MariaDB database using Docke
 - **Docker Compose**: [Installationsanleitung für Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Quickstart
-To quickly get started with the project, clone the repository, adjust the environment variables in the `.env` file, and start the services. 
+To quickly get started with the project, clone the repository (clone the repository section), adjust the environment variables (configure environment variables section) in the `.env` file
+and start the services (start the services section).
+
+Open your web browser and go to:
+
+```
+<localhost/ip>:<WORDPRESS_PORT>
+```
+
+Note: Replace <WORDPRESS_PORT> with the port number you set in the .env file (default: 8080).
+Follow the on-screen instructions to complete the WordPress installation.
 
 ## Usage
 After starting the services, you can access WordPress through your web browser at `http://localhost:8080`. Follow the on-screen instructions to complete the setup.
