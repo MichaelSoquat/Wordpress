@@ -28,7 +28,7 @@ Open your web browser and go to:
 <localhost/ip>:<WORDPRESS_PORT>
 ```
 
-Note: Replace <WORDPRESS_PORT> with the port number you set in the .env file (default: 8080).
+Note: Replace `<WORDPRESS_PORT>` with the port number you set in the .env file.
 Follow the on-screen instructions to complete the WordPress installation.
 
 ## Usage
