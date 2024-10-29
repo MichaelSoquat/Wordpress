@@ -60,7 +60,7 @@ Adjust the .env file to fit your setup:
 
 services:
   wordpress:
-    image: wordpress:latest
+    image: wordpress:6.3
     container_name: wp
     ports:
       - "${WORDPRESS_PORT}:80"
@@ -75,7 +75,7 @@ services:
       - db
 
   db:
-    image: mariadb:latest
+    image: mariadb:10.11
     container_name: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
